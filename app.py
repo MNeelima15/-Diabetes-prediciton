@@ -18,8 +18,7 @@ import seaborn as sns
 
 
 
-df = pd.read_csv(![](diabetes.csv))
-
+df=pd.read_csv(r'C:\Users\ROOPA DATTA\Documents\Data science files\diabetes.csv')
 # HEADINGS
 st.title('Diabetes Checkup')
 st.sidebar.header('Patient Data')
