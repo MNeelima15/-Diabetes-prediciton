@@ -6,11 +6,10 @@ from PIL import Image
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import learning_curve, train_test_split
-primaryColor="#1909a2"
+primaryColor="#131d9e"
 backgroundColor="#fde5c6"
 secondaryBackgroundColor="#ffcccc"
-textColor="#0b0b0c"
-font="serif"
+textColor="#070708"
 
 
 df=pd.read_csv(r'C:\Users\ROOPA DATTA\Documents\Data science files\diabetes.csv')
