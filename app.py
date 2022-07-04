@@ -1,6 +1,5 @@
 from gettext import install
 import pip
-import sklearn
 import streamlit as st
 import pandas as pd 
 from PIL import Image
